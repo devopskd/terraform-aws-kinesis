@@ -3,7 +3,7 @@
 Amazon Kinesis makes it easy to collect, process, and analyze real-time, streaming data so you can get timely insights and react quickly to new information.
 in this kinesis-firehose will read the kinesis stream data and process steam data in to s3 table using glue data format.
 
-## Introduction
+## Introduction #######
 **This service is designed for deployment terraform**
 
 this service will deploy aws kinesis stream,
@@ -12,7 +12,7 @@ aws glue databse and aws glue table
 
 
 
-## Variables
+## Variables #####
 
 **region**: (String) the region to deploy to
 

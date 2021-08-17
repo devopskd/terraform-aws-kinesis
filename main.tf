@@ -22,6 +22,7 @@ resource "aws_glue_catalog_table" "aws_glue_table" {
     classification = "parquet"
   }
 */
+
   storage_descriptor {
     location      = "${var.s3_bucket_path}"
     input_format  = "${var.storage_input_format}"
